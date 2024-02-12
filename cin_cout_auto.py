@@ -15,3 +15,4 @@ def automate_checkin_checkout(action):
 
 # Example usage
 action = input("Enter 'checkin' or 'checkout': ").lower()
+automate_checkin_checkout(action)
