@@ -8,3 +8,6 @@ def automate_checkin_checkout(action):
     # Open the URL in the default browser
     webbrowser.open(url)
 
+    # Sleep for a few seconds to allow the page to load
+    time.sleep(5)
+
