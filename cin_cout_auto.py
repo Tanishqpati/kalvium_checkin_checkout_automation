@@ -11,3 +11,7 @@ def automate_checkin_checkout(action):
     # Sleep for a few seconds to allow the page to load
     time.sleep(5)
 
+    # You may need to manually handle authentication here if required
+
+# Example usage
+action = input("Enter 'checkin' or 'checkout': ").lower()
